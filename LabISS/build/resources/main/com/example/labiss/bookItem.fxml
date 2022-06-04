@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="29.0" prefWidth="314.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.BookItemController">
+   <children>
+      <CheckBox fx:id="checkBox" layoutX="6.0" layoutY="7.0" mnemonicParsing="false" onAction="#selectBook" prefHeight="18.0" prefWidth="13.0" />
+      <Label fx:id="titluCarte" layoutX="31.0" layoutY="7.0" prefHeight="18.0" prefWidth="102.0" text="Titlu" />
+      <Label fx:id="autorCarte" layoutX="157.0" layoutY="6.0" prefHeight="18.0" prefWidth="102.0" text="Autor" />
+      <Label fx:id="nrExemplare" layoutX="272.0" layoutY="5.0" prefHeight="6.0" prefWidth="28.0" text="Nr" />
+   </children>
+</AnchorPane>
